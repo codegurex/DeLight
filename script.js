@@ -12,7 +12,7 @@ const menuCategories = [
         name: "Delight Fantasia", 
         description: "Yogurt griego con banano, fresas, chispas de chocolate, cereal crocante y jalea a tu eleccion", 
         price: 2.00, 
-        image: "delightfantasia.jpg",
+        image: "images/delightfantasia.jpg",
         isBuilder: true,
         selectionGroups: [
           { name: "Yogurt", options: ["Yogurt griego natural", "Yogurt griego vainilla", "Kefir"], maxSelect: 1, required: true },
@@ -31,7 +31,7 @@ const menuCategories = [
         name: "Parfait de Yogurt Griego", 
         description: "Yogurt griego 0% grasa con frutos rojos, miel y granola. 145 calorias, 12g proteina", 
         price: 2.50, 
-        image: "parfaitdeyogurtgriego.jpg"
+        image: "images/parfaitdeyogurtgriego.jpg"
       },
       
       
@@ -40,7 +40,7 @@ const menuCategories = [
         name: "Arma tu DeLight", 
         description: "Crea tu propio yogurt personalizado. Endulzado naturalmente con estevia y miel, sin azucar refinada", 
         price: 2.25, 
-        image: "armatudelight.jpg",
+        image: "images/armatudelight.jpg",
         isBuilder: true,
         selectionGroups: [
           { name: "Yogurt", options: ["Yogurt griego natural", "Yogurt griego vainilla", "Kefir"], maxSelect: 1, required: true },
@@ -62,7 +62,7 @@ const menuCategories = [
         name: "Fresa y Oreo", 
         description: "Yogurt griego con galletas de Oreo, fresas frescas y jalea de chocolate", 
         price: 1.90, 
-        image: "fresayoreo.jpg"  
+        image: "images/fresayoreo.jpg"  
       },
       
       
@@ -71,7 +71,7 @@ const menuCategories = [
         name: "Yogurt de Acai", 
         description: "Yogurt con acai, fresa, banano, arandanos y granola", 
         price: 2.99, 
-        image: "yogurtdeacai.jpg"  
+        image: "images/yogurtdeacai.jpg"  
       },
       
      
@@ -80,7 +80,7 @@ const menuCategories = [
         name: "Choco Banana", 
         description: "Yogurt griego con jalea de chocolate, rodajas de banano y semillas de chia", 
         price: 1.80, 
-        image: "chocobanana.jpg"  
+        image: "images/chocobanana.jpg"  
       },
       
   
@@ -89,7 +89,7 @@ const menuCategories = [
         name: "Mani Choco Crocante", 
         description: "Yogurt griego con jalea de higo, mani cubierto de chocolate y cereal de chocolate", 
         price: 1.90, 
-        image: "manichococrocante.jpg"  
+        image: "images/manichococrocante.jpg"  
       },
       
      
@@ -98,7 +98,7 @@ const menuCategories = [
         name: "Delight Energy", 
         description: "Yogurt griego con mix de semillas, miel y frutos del bosque", 
         price: 2.99, 
-        image: "delightenergy.png"
+        image: "images/delightenergy.png"
       },
       
      
@@ -107,7 +107,7 @@ const menuCategories = [
         name: "Delight Tropical", 
         description: "Yogurt griego con fresas, pina, granola crocante y jalea de mora", 
         price: 2.25, 
-        image: "delighttropical.png"
+        image: "images/delighttropical.png"
       },
       
       
@@ -116,7 +116,7 @@ const menuCategories = [
         name: "Delight Premium", 
         description: "Yogurt griego con kiwi, mango, coco rayado y jalea de maracuya", 
         price: 2.50, 
-        image: "delightpremiun.png"
+        image: "images/delightpremiun.png"
       },
     ]
   },
@@ -131,7 +131,7 @@ const menuCategories = [
         name: "Omelette Cremoso", 
         description: "Huevos con tomatillos, espinaca y pan o chifle. Agrega una taza de cafe por $2.25", 
         price: 1.50, 
-        image: "omelette.jpg"  
+        image: "images/omelette.jpg"  
       },
     ]
   },
@@ -146,14 +146,14 @@ const menuCategories = [
         name: "Tostada Proteica DeLight", 
         description: "Pan integral al horno con crema ligera de Skyr islandes, coronado con frutas y un toque de miel", 
         price: 2.00, 
-        image: "tostadaproteica.jpg"
+        image: "images/tostadaproteica.jpg"
       },
       { 
         id: "tostada-pomodoro", 
         name: "Tostada Pomodoro DeLight", 
         description: "Pan integral con Skyr, tomates cherry al pomodoro, albahaca fresca y balsamico", 
         price: 2.00,
-        image: "tostadapomodoro.jpg", 
+        image: "images/tostadapomodoro.jpg", 
       },
     ]
   },
@@ -168,7 +168,7 @@ const menuCategories = [
         name: "Wrap Proteico DeLight", 
         description: "Pollo grillado con lechugas, pepino, tomate cherry y cebolla morada encurtida. Servido con dip de Skyr al limon y eneldo", 
         price: 2.50,
-        image: "wraps.png", 
+        image: "images/wraps.png", 
       },
     ]
   },
@@ -183,7 +183,7 @@ const menuCategories = [
         name: "Ensalada Proteica DeLight", 
         description: "Pollo a la plancha sobre mix de lechugas, tomate cherry, pepino y zanahoria rallada. Con dip de Skyr al limon y hierbas frescas", 
         price: 3.00, 
-        image: "ensalada.jpg", 
+        image: "images/ensalada.jpg", 
       },
     ]
   },
@@ -227,46 +227,46 @@ const menuCategories = [
         name: "Limonada de Frutos Rojos", 
         description: "Limonada natural con frutos rojos", 
         price: 1.50,
-        image: "frutorojos.png",
+        image: "images/frutorojos.png",
         },
 
       { id: "maracuya-hierbabuena", 
         name: "Maracuya & Hierbabuena", 
         description: "Refrescante mezcla de maracuya con hierbabuena", 
         price: 1.50,
-        image: "maracuya.png",
+        image: "images/maracuya.png",
         },
 
       { id: "te-verde-menta", 
         name: "Te Verde Menta & Limon", 
         description: "Te verde con menta fresca y limon", 
         price: 1.50,
-        image: "teverde.png",
+        image: "images/teverde.png",
         },
       { id: "te-hibisco",
         name: "Te de Hibisco Frio",
         description: "Te de hibisco frio y refrescante",
         price: 1.50,
-        image: "carga.jpg",
+        image: "images/carga.jpg",
         },
       { id: "smoothie-verde",
         name: "Smoothie Verde Vital", 
         description: "Espinaca + manzana + pepino", 
         price: 1.75,
-        image: "carga.jpg", 
+        image: "images/carga.jpg", 
         },
       { id: "smoothie-cacao", 
         name: "Smoothie Cacao & Banana",
         description: "Smoothie de cacao con banana", 
         price: 2.50,
-        image: "carga.jpg",
+        image: "images/carga.jpg",
         },
       
       { id: "Café", 
         name: "Café Mocha Helado", 
         description: "Cafe, Jalea chocolate, hielo, Leche", 
         price: 1.99,
-        image: "cafemocha.png",  
+        image: "images/cafemocha.png",  
       },
     ]
   }
@@ -280,7 +280,7 @@ const specialtiesData = [
     title: "Delight Energy", 
     description: "Yogurt griego con mix de semillas, miel y frutos del bosque", 
     price: "$2.99", 
-    image: "delightenergy.png", 
+    image: "images/delightenergy.png", 
   },
   
  
@@ -288,21 +288,21 @@ const specialtiesData = [
     title: "Delight Tropical", 
     description: "Yogurt griego con fresas, pina, granola crocante y jalea de mora", 
     price: "$2.25", 
-    image: "delighttropical.png",  },
+    image: "images/delighttropical.png",  },
   
  
   { 
     title: "Delight Premium", 
     description: "Yogurt griego con kiwi, mango, coco rayado y jalea de maracuya", 
     price: "$2.50", 
-    image: "delightpremiun.png",  },
+    image: "images/delightpremiun.png",  },
   
   
   { 
     title: "Delight Fantasia", 
     description: "Yogurt griego con banano, fresas, chispas de chocolate, cereal crocante y jalea", 
     price: "$2.00", 
-    image: "delightfantasia.jpg" 
+    image: "images/delightfantasia.jpg" 
   },
 ];
 
