@@ -146,14 +146,14 @@ const menuCategories = [
         name: "Tostada Proteica DeLight", 
         description: "Pan integral al horno con crema ligera de Skyr islandes, coronado con frutas y un toque de miel", 
         price: 2.00, 
-        image: "images/tostadaproteica1.jpg"
+        image: "images/tostadaproteica.jpg"
       },
       { 
         id: "tostada-pomodoro", 
         name: "Tostada Pomodoro DeLight", 
         description: "Pan integral con Skyr, tomates cherry al pomodoro, albahaca fresca y balsamico", 
         price: 2.00,
-        image: "images/tostadapomodoro2.jpg", 
+        image: "images/tostadapomodoro.jpg", 
       },
     ]
   },
